@@ -1,11 +1,11 @@
 # Agentic Personas Storefront — Debugging Assessment
 
 > ## Debugging report: an AI agent fleet fixed all 16 seeded bugs in one live interview
-> **[Open the master deliverable](https://lifehackinnovations.com/lhi-workspace/interview-deliverables/eci-round-two-live/)** ·
-> [Bug report (simple and detail)](https://lifehackinnovations.com/lhi-workspace/interview-deliverables/eci-round-two-live-bug-report/) ·
-> [UI walkthrough, 18 steps, Next/Back](https://lifehackinnovations.com/lhi-workspace/interview-deliverables/eci-round-two-live-walkthrough/) ·
-> [Hosted app](https://lifehackinnovations.com/lhi-workspace/interview-deliverables/eci-storefront-app/app/) ·
-> [Staffing tree](https://lifehackinnovations.com/lhi-workspace/interview-deliverables/eci-round-two-live-tree/)
+> **[Open the master deliverable](https://lifehackinnovations.com/lhi-workspace/api/workspace/share/bHHdRecF/eci-round-two-live/index.html)** ·
+> [Bug report (simple and detail)](https://lifehackinnovations.com/lhi-workspace/api/workspace/share/bHHdRecF/eci-round-two-live-bug-report/index.html) ·
+> [UI walkthrough, 18 steps, Next/Back](https://lifehackinnovations.com/lhi-workspace/api/workspace/share/bHHdRecF/eci-round-two-live-walkthrough/index.html) ·
+> [Hosted app](https://lifehackinnovations.com/lhi-workspace/api/workspace/share/bHHdRecF/eci-storefront-app/app/index.html) ·
+> [Staffing tree](https://lifehackinnovations.com/lhi-workspace/api/workspace/share/bHHdRecF/eci-round-two-live-tree/index.html)
 >
 > Static copies of every page are in [`interview-deliverables/`](interview-deliverables/) and open without any login. The hosted links are public and open without a login (served from the author's DigitalOcean infrastructure; the share link expires 11/11/2026, after which use the snapshot). Session links inside the pages point at internal tooling and ask for authentication, so they will not open for other viewers. The hosted app is a shared demo with an in-memory database: anyone can register and add to a cart, and it resets when the service restarts.
 
