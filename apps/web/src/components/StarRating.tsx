@@ -1,9 +1,12 @@
+import { useId } from "react";
+
 interface StarRatingProps {
   rating: number;
   size?: "sm" | "md";
 }
 
 export function StarRating({ rating, size = "md" }: StarRatingProps) {
+  const gradientId = useId();
   const starSize = size === "sm" ? "w-4 h-4" : "w-5 h-5";
 
   return (
@@ -14,13 +17,13 @@ export function StarRating({ rating, size = "md" }: StarRatingProps) {
           <svg
             key={i}
             className={`${starSize} ${fill > 0 ? "text-yellow-400" : "text-gray-200"}`}
-            fill={fill >= 1 ? "currentColor" : fill > 0 ? "url(#half)" : "none"}
+            fill={fill >= 1 ? "currentColor" : fill > 0 ? `url(#${gradientId}-${i})` : "none"}
             stroke="currentColor"
             viewBox="0 0 24 24"
           >
             {fill > 0 && fill < 1 && (
               <defs>
-                <linearGradient id="half">
+                <linearGradient id={`${gradientId}-${i}`}>
                   <stop offset={`${fill * 100}%`} stopColor="currentColor" />
                   <stop offset={`${fill * 100}%`} stopColor="transparent" />
                 </linearGradient>
