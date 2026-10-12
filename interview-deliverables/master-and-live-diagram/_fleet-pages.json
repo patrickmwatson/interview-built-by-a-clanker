@@ -3,7 +3,7 @@
     {
       "title": "ECI Round 2 — 16 bugs: what broke, how we found it, how we fixed it · LHI",
       "label": "All 16 seeded bugs in the ECI assessment were found and fixed, one fix each, and this page explains every one: what broke for a user, how we found it, the evidence, the thinking, and the diff.",
-      "url": "https://lifehackinnovations.com/lhi-workspace/deliverables/eci-round-two-live-bug-report/"
+      "url": "../eci-round-two-live-bug-report/index.html"
     }
   ]
 }

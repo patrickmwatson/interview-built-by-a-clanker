@@ -1,5 +1,5 @@
 {
   "what": "The forked Agentic Personas storefront, running live and gated behind the LHI Workspace Portal. Open it at app/ (login screen included).",
-  "takeaway": "Open https://lifehackinnovations.com/lhi-workspace/deliverables/eci-storefront-app/app/ . Data is in memory and resets when the API restarts. Share via the portal's share mechanism only.",
+  "takeaway": "Open ../eci-storefront-app/app/index.html . Data is in memory and resets when the API restarts. Share via the portal's share mechanism only.",
   "updatedAt": "2026-10-12T03:20:00 PM ET"
 }

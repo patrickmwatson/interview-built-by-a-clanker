@@ -222,7 +222,7 @@
   var import_hover_tooltip = __toESM(require_hover_tooltip());
 
   // scripts/lib/platform-roots.mjs
-  var ROOTS = Object.freeze({ do: "/home/patrickwatsonlhi/lhi_scripts", mac: "/Users/patrickwatson/lhi_scripts" });
+  var ROOTS = Object.freeze({ do: "~/lhi_scripts", mac: "~/lhi_scripts" });
 
   // scripts/lib/provenance/constants.mjs
   var COMPONENT_NAME = "MakerMark";

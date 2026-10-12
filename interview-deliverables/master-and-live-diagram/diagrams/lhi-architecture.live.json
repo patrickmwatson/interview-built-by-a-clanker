@@ -20,7 +20,7 @@
       "atEt": "Oct 12, 2026, 2:56 PM ET",
       "machine": "do",
       "host": "lhi-devbox-gui-v2",
-      "cwd": "/home/patrickwatsonlhi/lhi_scripts/interviews/eci-live/interview-built-by-a-clanker",
+      "cwd": "~/lhi_scripts/interviews/eci-live/interview-built-by-a-clanker",
       "model": "fable",
       "runtime": {
         "node": "v22.22.0"
@@ -42,8 +42,8 @@
       "upstream": "lhi/develop",
       "pushed": null,
       "roots": {
-        "do": "/home/patrickwatsonlhi/lhi_scripts",
-        "mac": "/Users/patrickwatson/lhi_scripts"
+        "do": "~/lhi_scripts",
+        "mac": "~/lhi_scripts"
       }
     },
     "skills": [
@@ -60,8 +60,8 @@
         "displayMeaning": "lhi-live-diagram:create → scripts/user-claude-ssot/skills/lhi-live-diagram-create/SKILL.md",
         "links": {
           "github": "https://github.com/LifeHackInnovationsLLC/lhi_scripts/blob/d0c4c7280afdb85a72392b76c25048421347228b/scripts/user-claude-ssot/skills/lhi-live-diagram-create/SKILL.md#L1",
-          "mac": "/Users/patrickwatson/lhi_scripts/scripts/user-claude-ssot/skills/lhi-live-diagram-create/SKILL.md",
-          "do": "/home/patrickwatsonlhi/lhi_scripts/scripts/user-claude-ssot/skills/lhi-live-diagram-create/SKILL.md",
+          "mac": "~/lhi_scripts/scripts/user-claude-ssot/skills/lhi-live-diagram-create/SKILL.md",
+          "do": "~/lhi_scripts/scripts/user-claude-ssot/skills/lhi-live-diagram-create/SKILL.md",
           "go": "https://lifehackinnovations.com/go/f/lhi_scripts/scripts/user-claude-ssot/skills/lhi-live-diagram-create/SKILL.md?l=1&c=d0c4c7280afdb85a72392b76c25048421347228b"
         },
         "origin": {
@@ -79,8 +79,8 @@
             "blob": "0d5a6cbd2190d4fbd81c411c56f1a1d6d504233e",
             "links": {
               "github": "https://github.com/LifeHackInnovationsLLC/lhi_scripts/blob/d0c4c7280afdb85a72392b76c25048421347228b/scripts/user-claude-ssot/skills/lhi-live-diagram-create/scripts/create.mjs#L1",
-              "mac": "/Users/patrickwatson/lhi_scripts/scripts/user-claude-ssot/skills/lhi-live-diagram-create/scripts/create.mjs",
-              "do": "/home/patrickwatsonlhi/lhi_scripts/scripts/user-claude-ssot/skills/lhi-live-diagram-create/scripts/create.mjs",
+              "mac": "~/lhi_scripts/scripts/user-claude-ssot/skills/lhi-live-diagram-create/scripts/create.mjs",
+              "do": "~/lhi_scripts/scripts/user-claude-ssot/skills/lhi-live-diagram-create/scripts/create.mjs",
               "go": "https://lifehackinnovations.com/go/f/lhi_scripts/scripts/user-claude-ssot/skills/lhi-live-diagram-create/scripts/create.mjs?l=1&c=d0c4c7280afdb85a72392b76c25048421347228b"
             },
             "origin": {
@@ -103,8 +103,8 @@
         "displayMeaning": "lhi-architecture-diagrams:embed → scripts/user-claude-ssot/skills/lhi-architecture-diagrams-embed/SKILL.md",
         "links": {
           "github": "https://github.com/LifeHackInnovationsLLC/lhi_scripts/blob/d0c4c7280afdb85a72392b76c25048421347228b/scripts/user-claude-ssot/skills/lhi-architecture-diagrams-embed/SKILL.md#L1",
-          "mac": "/Users/patrickwatson/lhi_scripts/scripts/user-claude-ssot/skills/lhi-architecture-diagrams-embed/SKILL.md",
-          "do": "/home/patrickwatsonlhi/lhi_scripts/scripts/user-claude-ssot/skills/lhi-architecture-diagrams-embed/SKILL.md",
+          "mac": "~/lhi_scripts/scripts/user-claude-ssot/skills/lhi-architecture-diagrams-embed/SKILL.md",
+          "do": "~/lhi_scripts/scripts/user-claude-ssot/skills/lhi-architecture-diagrams-embed/SKILL.md",
           "go": "https://lifehackinnovations.com/go/f/lhi_scripts/scripts/user-claude-ssot/skills/lhi-architecture-diagrams-embed/SKILL.md?l=1&c=d0c4c7280afdb85a72392b76c25048421347228b"
         },
         "origin": {
@@ -114,12 +114,12 @@
         "params": {
           "argv": [
             "--module=/tmp/ld-embed-fOKjoL",
-            "--deliverable=/home/patrickwatsonlhi/lhi_scripts/lhi_modules/lhi_git_projects/LifeHackInnovationsLLC/lhi-workspace/deliverables/eci-round-two-live",
+            "--deliverable=~/lhi_scripts/lhi_modules/lhi_git_projects/LifeHackInnovationsLLC/lhi-workspace/deliverables/eci-round-two-live",
             "--types=live"
           ],
           "flags": {
             "module": "/tmp/ld-embed-fOKjoL",
-            "deliverable": "/home/patrickwatsonlhi/lhi_scripts/lhi_modules/lhi_git_projects/LifeHackInnovationsLLC/lhi-workspace/deliverables/eci-round-two-live",
+            "deliverable": "~/lhi_scripts/lhi_modules/lhi_git_projects/LifeHackInnovationsLLC/lhi-workspace/deliverables/eci-round-two-live",
             "types": "live"
           }
         },
@@ -130,8 +130,8 @@
             "blob": "f176215a0444c0b35b445df8ea7a918b7b6c4c2b",
             "links": {
               "github": "https://github.com/LifeHackInnovationsLLC/lhi_scripts/blob/d0c4c7280afdb85a72392b76c25048421347228b/scripts/user-claude-ssot/skills/lhi-architecture-diagrams-embed/scripts/embed.mjs#L1",
-              "mac": "/Users/patrickwatson/lhi_scripts/scripts/user-claude-ssot/skills/lhi-architecture-diagrams-embed/scripts/embed.mjs",
-              "do": "/home/patrickwatsonlhi/lhi_scripts/scripts/user-claude-ssot/skills/lhi-architecture-diagrams-embed/scripts/embed.mjs",
+              "mac": "~/lhi_scripts/scripts/user-claude-ssot/skills/lhi-architecture-diagrams-embed/scripts/embed.mjs",
+              "do": "~/lhi_scripts/scripts/user-claude-ssot/skills/lhi-architecture-diagrams-embed/scripts/embed.mjs",
               "go": "https://lifehackinnovations.com/go/f/lhi_scripts/scripts/user-claude-ssot/skills/lhi-architecture-diagrams-embed/scripts/embed.mjs?l=1&c=d0c4c7280afdb85a72392b76c25048421347228b"
             },
             "origin": {
@@ -144,8 +144,8 @@
             "blob": "634f117a7075a147724de39177464270313201c5",
             "links": {
               "github": "https://github.com/LifeHackInnovationsLLC/lhi_scripts/blob/d0c4c7280afdb85a72392b76c25048421347228b/scripts/user-claude-ssot/skills/lhi-deliverable-create/scripts/provenance-strip.mjs#L1",
-              "mac": "/Users/patrickwatson/lhi_scripts/scripts/user-claude-ssot/skills/lhi-deliverable-create/scripts/provenance-strip.mjs",
-              "do": "/home/patrickwatsonlhi/lhi_scripts/scripts/user-claude-ssot/skills/lhi-deliverable-create/scripts/provenance-strip.mjs",
+              "mac": "~/lhi_scripts/scripts/user-claude-ssot/skills/lhi-deliverable-create/scripts/provenance-strip.mjs",
+              "do": "~/lhi_scripts/scripts/user-claude-ssot/skills/lhi-deliverable-create/scripts/provenance-strip.mjs",
               "go": "https://lifehackinnovations.com/go/f/lhi_scripts/scripts/user-claude-ssot/skills/lhi-deliverable-create/scripts/provenance-strip.mjs?l=1&c=d0c4c7280afdb85a72392b76c25048421347228b"
             },
             "origin": {
@@ -176,8 +176,8 @@
         "sha256": "c78aacb0e3ee1ed5564795f3ec18ed2e82b30fc1e733280943230ae07a5b4315",
         "links": {
           "github": null,
-          "mac": "/Users/patrickwatson/lhi_scripts/../../../tmp/ld-embed-fOKjoL/lhi-architecture.live.json",
-          "do": "/home/patrickwatsonlhi/lhi_scripts/../../../tmp/ld-embed-fOKjoL/lhi-architecture.live.json",
+          "mac": "~/lhi_scripts/../../../tmp/ld-embed-fOKjoL/lhi-architecture.live.json",
+          "do": "~/lhi_scripts/../../../tmp/ld-embed-fOKjoL/lhi-architecture.live.json",
           "go": "https://lifehackinnovations.com/go/f/lhi_scripts/../../../tmp/ld-embed-fOKjoL/lhi-architecture.live.json?l=1&c=d0c4c7280afdb85a72392b76c25048421347228b"
         }
       }
@@ -195,7 +195,7 @@
       "resolver": "lhi-link@0.0.2"
     },
     "originsNote": "A file with no origin.session was created before 2026-10-11, when creating sessions began to be recorded; a file with blob null is not committed to git (see dirty).",
-    "reproduce": "cd /home/patrickwatsonlhi/lhi_scripts && node scripts/user-claude-ssot/skills/lhi-live-diagram-create/scripts/create.mjs",
+    "reproduce": "cd ~/lhi_scripts && node scripts/user-claude-ssot/skills/lhi-live-diagram-create/scripts/create.mjs",
     "usedSkills": [
       "lhi-live-diagram:create",
       "lhi-architecture-diagrams:embed"

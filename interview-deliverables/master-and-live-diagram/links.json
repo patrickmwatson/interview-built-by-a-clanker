@@ -2,7 +2,7 @@
   "links": [
     {
       "label": "Plan breakdown (PLAN.md)",
-      "url": "https://lifehackinnovations.com/go/?p=/home/patrickwatsonlhi/lhi_scripts/interviews/eci-live/PLAN.md",
+      "url": "https://lifehackinnovations.com/go/?p=~/lhi_scripts/interviews/eci-live/PLAN.md",
       "kind": "doc",
       "note": "",
       "addedBy": "3df3fdfb-65a5-4055-af90-b2cb4044b2f7",
@@ -26,7 +26,7 @@
     },
     {
       "label": "Bug report: 16 fixes, simple + detail",
-      "url": "https://lifehackinnovations.com/lhi-workspace/deliverables/eci-round-two-live-bug-report/",
+      "url": "../eci-round-two-live-bug-report/index.html",
       "kind": "deliverable",
       "note": "",
       "addedBy": "3df3fdfb-65a5-4055-af90-b2cb4044b2f7",
@@ -34,7 +34,7 @@
     },
     {
       "label": "Hosted storefront app (login screen, portal-gated)",
-      "url": "https://lifehackinnovations.com/lhi-workspace/deliverables/eci-storefront-app/app/",
+      "url": "../eci-storefront-app/app/index.html",
       "kind": "deliverable",
       "note": "",
       "addedBy": "3df3fdfb-65a5-4055-af90-b2cb4044b2f7",
@@ -42,7 +42,7 @@
     },
     {
       "label": "UI walkthrough: 16 bugs, Next/Back tutorial",
-      "url": "https://lifehackinnovations.com/lhi-workspace/deliverables/eci-round-two-live-walkthrough/",
+      "url": "../eci-round-two-live-walkthrough/index.html",
       "kind": "deliverable",
       "note": "",
       "addedBy": "47b19cf0-e402-49bd-9fed-aacee7adc04f",
