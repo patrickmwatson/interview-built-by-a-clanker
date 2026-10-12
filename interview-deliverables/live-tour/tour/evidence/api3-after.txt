@@ -1,0 +1,10 @@
+$ curl -i -X OPTIONS https://lifehackinnovations.com/eci-storefront-api/cart/cart-1 \
+    -H "Origin: http://localhost:5173" -H "Access-Control-Request-Method: DELETE"
+# same question to the fixed server (captured 10/12/2026 4:0x PM ET from the real project server)
+HTTP/2 204 
+access-control-allow-origin: http://localhost:5173
+access-control-allow-credentials: true
+access-control-allow-methods: GET, POST, PUT, DELETE, OPTIONS
+vary: Access-Control-Request-Headers
+
+# DELETE is allowed, so the browser goes ahead.

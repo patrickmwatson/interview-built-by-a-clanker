@@ -1,7 +1,7 @@
 {
   "title": "EciRoundTwoLive \u2014 Initiative Master",
   "type": "status",
-  "updatedAt": "2026-10-12T15:40 ET",
+  "updatedAt": "2026-10-12T17:00 ET",
   "master": {
     "label": "Overall",
     "pct": 97
@@ -89,17 +89,17 @@
     },
     {
       "id": "p10-bugreport",
-      "label": "10 \u00b7 Bug report: 16 fixes, each with simple view + detail (live; more diagrams pending)",
-      "pct": 75,
-      "status": "in-progress",
+      "label": "10 \u00b7 Bug report: 16 fixes, simple view + detail (live; the richer visuals now live in the tour)",
+      "pct": 100,
+      "status": "done",
       "owner": "overseer 3df3fdfb-65a5-4055-af90-b2cb4044b2f7 (ward-bug-report 8277710f-7f73-46c8-84e5-74cb1084ac4f halted by usage limit 2:50 PM ET)",
       "blocker": ""
     },
     {
       "id": "p11-diagrams",
-      "label": "11 \u00b7 Live interactive diagrams: architecture map + 2 scenarios live, Heart voice narration (23 clips)",
-      "pct": 50,
-      "status": "in-progress",
+      "label": "11 \u00b7 Live interactive diagrams: architecture map + 2 scenarios, af_heart narration (23 clips)",
+      "pct": 100,
+      "status": "done",
       "owner": "relay-diagrams 55682e2c-a30b-4342-ba4a-09270e5027a2 (Fable)",
       "blocker": ""
     },
@@ -129,10 +129,50 @@
     },
     {
       "id": "p15-public",
-      "label": "15 \u00b7 Make this fleet's deliverables public (leak audit first, LCB links neutralized, anonymous Playwright proof of every deliverable)",
+      "label": "15 \u00b7 Public: one share link serves all five deliverables; leak audit passed; anonymous proof of every page passed",
+      "pct": 100,
+      "status": "done",
+      "owner": "ward-public 0216212b-78d1-40b8-adfe-d9f160c03b3a (Fable)",
+      "blocker": ""
+    },
+    {
+      "id": "p16-repo",
+      "label": "16 \u00b7 Public fork: README report first, 14 screenshots, interview-deliverables/ snapshot from the sanitized public bundle",
+      "pct": 90,
+      "status": "in-progress",
+      "owner": "overseer 3df3fdfb-65a5-4055-af90-b2cb4044b2f7",
+      "blocker": ""
+    },
+    {
+      "id": "p17-tour",
+      "label": "17 \u00b7 Live tour LIVE + public: Next drives the real Before (buggy) and After (fixed) apps, 18/18 anonymous deep links pass, af_heart narration, Playwright runner for the Mac",
+      "pct": 100,
+      "status": "done",
+      "owner": "ward-live-tour 48ad2057-14c5-4c39-9af9-b519db646cc9 (Fable)",
+      "blocker": ""
+    },
+    {
+      "id": "p18-voice",
+      "label": "18 \u00b7 Skill-family fix: Heart voice enforced, silent builds fail loudly, narration on by default (TD-1647); separate initiative, after the interview",
       "pct": 5,
       "status": "in-progress",
-      "owner": "ward-public 0216212b-78d1-40b8-adfe-d9f160c03b3a (Fable)",
+      "owner": "overseer 060921ee-34c0-4c19-ba0b-b2b3d7bcbec8 (LiveDiagramVoiceDefault, Fable)",
+      "blocker": ""
+    },
+    {
+      "id": "p19-chip",
+      "label": "19 \u00b7 LCB model-chip SSOT fix (subheader vs input pill divergence) \u2014 own initiative, Fable overseer seated",
+      "pct": 10,
+      "status": "in-progress",
+      "owner": "overseer 5f40e748-114f-49d2-b516-942ed7f77f71 (LcbModelChipSsot)",
+      "blocker": ""
+    },
+    {
+      "id": "p20-watchlive",
+      "label": "20 \u00b7 Live-diagram playground invariant + watch-live companion family \u2014 own initiative, overseer birthing (load-gated)",
+      "pct": 5,
+      "status": "in-progress",
+      "owner": "initiative live-diagram-playground-watchlive",
       "blocker": ""
     }
   ]

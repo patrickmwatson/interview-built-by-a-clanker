@@ -1,0 +1,4 @@
+$ cd apps/web && pnpm typecheck         # after the fix, commit 0fc142d
+> @acme/web@0.0.0 typecheck <project>/apps/web
+> tsc --noEmit
+TYPECHECK_EXIT=0

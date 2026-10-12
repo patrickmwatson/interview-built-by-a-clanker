@@ -1,0 +1,7 @@
+$ cd packages/shared && pnpm build      # original code, commit 325f5e5
+> @acme/shared@0.0.0 build <project>/packages/shared
+> tsc
+error TS2688: Cannot find type definition file for 'testing-library__jest-dom'.
+  The file is in the program because:
+    Entry point for implicit type library 'testing-library__jest-dom'
+ ELIFECYCLE  Command failed with exit code 2.

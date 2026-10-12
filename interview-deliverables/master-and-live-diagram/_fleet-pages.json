@@ -1,6 +1,21 @@
 {
   "pages": [
     {
+      "title": "ECI Round Two: Live Interactive Tour of the 16 Bugs · LHI",
+      "label": "A live tour of the 16 ECI storefront bugs: each step drives the original buggy app and the fixed app side by side and shows what really happened.",
+      "url": "../eci-round-two-live-tour/index.html"
+    },
+    {
+      "title": "ECI Round Two: UI Walkthrough of the 16 Bugs · LHI",
+      "label": "A Next/Back tutorial on the real storefront showing where each of the 16 ECI bugs appeared in the UI and how it was fixed.",
+      "url": "../eci-round-two-live-walkthrough/index.html"
+    },
+    {
+      "title": "ECI Storefront App (hosted) · LHI",
+      "label": "The forked Agentic Personas storefront, running live and gated behind the LHI Workspace Portal. Open it at app/ (login screen included).",
+      "url": "../eci-storefront-app/index.html"
+    },
+    {
       "title": "ECI Round 2 — 16 bugs: what broke, how we found it, how we fixed it · LHI",
       "label": "All 16 seeded bugs in the ECI assessment were found and fixed, one fix each, and this page explains every one: what broke for a user, how we found it, the evidence, the thinking, and the diff.",
       "url": "../eci-round-two-live-bug-report/index.html"

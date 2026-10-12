@@ -1,0 +1,13 @@
+$ cd apps/web && pnpm typecheck         # original code, commit 325f5e5
+> @acme/web@0.0.0 typecheck <project>/apps/web
+> tsc --noEmit
+error TS2688: Cannot find type definition file for 'testing-library__jest-dom'.
+  The file is in the program because:
+    Entry point for implicit type library 'testing-library__jest-dom'
+ ELIFECYCLE  Command failed with exit code 2.
+
+# fix the first error only (types: []) and run it again, the next one appears:
+> @acme/web@0.0.0 typecheck <project>/apps/web
+> tsc --noEmit
+src/routeTree.gen.ts(45,7): error TS4023: Exported variable 'IndexRoute' has or is using name 'SearchParams' from external module "<project>/apps/web/src/routes/index" but cannot be named.
+ ELIFECYCLE  Command failed with exit code 2.

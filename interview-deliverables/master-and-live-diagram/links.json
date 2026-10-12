@@ -47,6 +47,62 @@
       "note": "",
       "addedBy": "47b19cf0-e402-49bd-9fed-aacee7adc04f",
       "addedAt": "2026-10-12 3:30 PM ET"
+    },
+    {
+      "label": "Deliverables snapshot in the public fork",
+      "url": "https://github.com/patrickmwatson/interview-built-by-a-clanker/tree/main/deliverables",
+      "kind": "tool",
+      "note": "",
+      "addedBy": "3df3fdfb-65a5-4055-af90-b2cb4044b2f7",
+      "addedAt": "2026-10-12 3:44 PM ET"
+    },
+    {
+      "label": "Public: all ECI deliverables",
+      "url": "https://lifehackinnovations.com/lhi-workspace/api/workspace/share/bHHdRecF/index.html",
+      "kind": "deliverable",
+      "note": "",
+      "addedBy": "0216212b-78d1-40b8-adfe-d9f160c03b3a",
+      "addedAt": "2026-10-12 3:48 PM ET"
+    },
+    {
+      "label": "Public: master page",
+      "url": "https://lifehackinnovations.com/lhi-workspace/api/workspace/share/bHHdRecF/eci-round-two-live/index.html",
+      "kind": "deliverable",
+      "note": "",
+      "addedBy": "0216212b-78d1-40b8-adfe-d9f160c03b3a",
+      "addedAt": "2026-10-12 3:48 PM ET"
+    },
+    {
+      "label": "Public: bug report",
+      "url": "https://lifehackinnovations.com/lhi-workspace/api/workspace/share/bHHdRecF/eci-round-two-live-bug-report/index.html",
+      "kind": "deliverable",
+      "note": "",
+      "addedBy": "0216212b-78d1-40b8-adfe-d9f160c03b3a",
+      "addedAt": "2026-10-12 3:48 PM ET"
+    },
+    {
+      "label": "Public: UI walkthrough",
+      "url": "https://lifehackinnovations.com/lhi-workspace/api/workspace/share/bHHdRecF/eci-round-two-live-walkthrough/index.html",
+      "kind": "deliverable",
+      "note": "",
+      "addedBy": "0216212b-78d1-40b8-adfe-d9f160c03b3a",
+      "addedAt": "2026-10-12 3:48 PM ET"
+    },
+    {
+      "label": "Public: storefront app",
+      "url": "https://lifehackinnovations.com/lhi-workspace/api/workspace/share/bHHdRecF/eci-storefront-app/app/index.html",
+      "kind": "deliverable",
+      "note": "",
+      "addedBy": "0216212b-78d1-40b8-adfe-d9f160c03b3a",
+      "addedAt": "2026-10-12 3:48 PM ET"
+    },
+    {
+      "label": "Live tour: Next drives the real buggy and fixed apps side by side (public)",
+      "url": "https://lifehackinnovations.com/lhi-workspace/api/workspace/share/bHHdRecF/eci-round-two-live-tour/index.html",
+      "kind": "deliverable",
+      "note": "",
+      "addedBy": "3df3fdfb-65a5-4055-af90-b2cb4044b2f7",
+      "addedAt": "2026-10-12 4:58 PM ET"
     }
   ]
 }

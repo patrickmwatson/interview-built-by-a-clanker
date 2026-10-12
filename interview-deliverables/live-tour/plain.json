@@ -1,0 +1,5 @@
+{
+  "what": "A live tour of the 16 ECI storefront bugs: each step drives the original buggy app and the fixed app side by side and shows what really happened.",
+  "takeaway": "Press Next. The tour clicks and types in both real apps, shows the bug on the original and the fix on the new one, and marks anything that did not behave as expected.",
+  "updatedAt": "2026-10-12T16:20 ET"
+}

@@ -1,0 +1,10 @@
+$ curl -i -X OPTIONS https://lifehackinnovations.com/eci-storefront-api-before/cart/cart-1 \
+    -H "Origin: http://localhost:5173" -H "Access-Control-Request-Method: DELETE"
+# the browser sends exactly this question before any DELETE; (captured 10/12/2026 4:0x PM ET from the real project server)
+HTTP/2 204 
+access-control-allow-origin: http://localhost:5173
+access-control-allow-credentials: true
+access-control-allow-methods: GET, POST, PUT, OPTIONS
+vary: Access-Control-Request-Headers
+
+# DELETE is not in the allowed list, so the browser refuses to send the delete.

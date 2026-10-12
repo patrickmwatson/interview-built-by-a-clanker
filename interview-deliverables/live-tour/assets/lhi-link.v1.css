@@ -1,0 +1,18 @@
+/* scripts/lib/link/lhi-link.v1.css — clickable-links 0.0.1. Vendored into deliverables by create.mjs (plan Task 10). Palette vars come from the page. */
+.lhi-link{display:inline-flex;align-items:center;gap:.3em;padding:.05em .45em;border-radius:.6em;border:1px solid var(--lhi-border,#3a3348);background:var(--lhi-chip,#221c2e);color:var(--lhi-link,#BA9EFF);text-decoration:none;font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:.92em;line-height:1.5;max-width:100%;overflow-wrap:anywhere;vertical-align:baseline}
+.lhi-link:hover,.lhi-link:focus-visible{border-color:var(--lhi-accent,#BA9EFF);box-shadow:0 0 0 2px rgba(186,158,255,.25);outline:none}
+.lhi-link__icon{font-size:.9em}
+.lhi-link__label{white-space:normal}
+.lhi-link--session .lhi-link__label{letter-spacing:.01em}
+.lhi-link--unpushed{border-style:dashed;color:var(--lhi-muted,#a99cc0);cursor:default}
+.lhi-link-wrap{position:relative;display:inline-flex;align-items:center;gap:.15em;max-width:100%}
+.lhi-link__more{border:1px solid var(--lhi-border,#3a3348);background:transparent;color:var(--lhi-link,#BA9EFF);border-radius:.5em;padding:0 .35em;font:inherit;line-height:1.4;cursor:pointer;min-width:1.8em;min-height:1.6em}
+.lhi-link__more:hover,.lhi-link__more:focus-visible{border-color:var(--lhi-accent,#BA9EFF);outline:none}
+.lhi-link-card{position:absolute;top:100%;left:0;z-index:50;margin-top:.3em;min-width:16em;max-width:min(32em,90vw);padding:.6em .7em;border-radius:.6em;border:1px solid var(--lhi-border,#3a3348);background:var(--lhi-card,#1A1423);color:var(--lhi-text,#EDD9FF);box-shadow:0 6px 24px rgba(0,0,0,.45);display:flex;flex-direction:column;gap:.35em;font-size:.88em}
+.lhi-link-card__go{color:var(--lhi-link,#BA9EFF)}
+.lhi-link-card__row{display:flex;align-items:center;gap:.4em;flex-wrap:wrap}
+.lhi-link-card__k{opacity:.75}
+.lhi-link-card__v{overflow-wrap:anywhere;font-size:.92em}
+.lhi-link-card__copy{border:1px solid var(--lhi-border,#3a3348);background:transparent;color:inherit;border-radius:.4em;padding:0 .4em;cursor:pointer}
+.lhi-link-card__limit{opacity:.75;font-size:.9em}
+@media (max-width:480px){.lhi-link{font-size:.85em}.lhi-link-card{position:fixed;left:5vw;right:5vw;top:auto;bottom:1em;max-width:none}}

@@ -1,0 +1,4 @@
+$ cd packages/shared && pnpm build      # after the fix, commit 1aee572
+> @acme/shared@0.0.0 build <project>/packages/shared
+> tsc
+BUILD_EXIT=0
