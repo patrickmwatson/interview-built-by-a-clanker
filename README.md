@@ -4,6 +4,7 @@
 > **[Open the master deliverable](https://lifehackinnovations.com/lhi-workspace/api/workspace/share/bHHdRecF/eci-round-two-live/index.html)** ·
 > [Bug report (simple and detail)](https://lifehackinnovations.com/lhi-workspace/api/workspace/share/bHHdRecF/eci-round-two-live-bug-report/index.html) ·
 > [UI walkthrough, 18 steps, Next/Back](https://lifehackinnovations.com/lhi-workspace/api/workspace/share/bHHdRecF/eci-round-two-live-walkthrough/index.html) ·
+> [Live tour: Next drives the real buggy app and the fixed app side by side](https://lifehackinnovations.com/lhi-workspace/api/workspace/share/bHHdRecF/eci-round-two-live-tour/index.html) ·
 > [Hosted app](https://lifehackinnovations.com/lhi-workspace/api/workspace/share/bHHdRecF/eci-storefront-app/app/index.html) ·
 > [Staffing tree](https://lifehackinnovations.com/lhi-workspace/api/workspace/share/bHHdRecF/eci-round-two-live-tree/index.html)
 >
@@ -175,6 +176,7 @@ flowchart TB
 | Bug report | One section per bug: simple view, then diff, evidence and thinking | [`bug-report/`](interview-deliverables/bug-report/) |
 | UI walkthrough | 18-step Next/Back tutorial with spotlighted screenshots | [`ui-walkthrough/`](interview-deliverables/ui-walkthrough/) |
 | Staffing tree | Which agent owned which work | [`staffing-tree/`](interview-deliverables/staffing-tree/) |
+| Live tour | Next/Back drives the REAL buggy and fixed apps side by side, 18 steps proven anonymously | [`live-tour/`](interview-deliverables/live-tour/) |
 | Hosted app build | The fixed storefront as hosted | [`storefront-app-hosted-build/`](interview-deliverables/storefront-app-hosted-build/) |
 | Model usage | Claude model counts for the last 30 days | inside the master snapshot, `model-usage/` |
 
