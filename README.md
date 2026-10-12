@@ -7,7 +7,7 @@
 > [Hosted app](https://lifehackinnovations.com/lhi-workspace/interview-deliverables/eci-storefront-app/app/) ·
 > [Staffing tree](https://lifehackinnovations.com/lhi-workspace/interview-deliverables/eci-round-two-live-tree/)
 >
-> Static copies of every page are in [`interview-deliverables/`](interview-deliverables/) and open without any login. Hosted links are served by the author's workspace portal; if one asks you to sign in, use the snapshot. Session links inside the pages point at internal tooling and need authentication.
+> Static copies of every page are in [`interview-deliverables/`](interview-deliverables/) and open without any login. The hosted links are public and open without a login (served from the author's DigitalOcean infrastructure; the share link expires 11/11/2026, after which use the snapshot). Session links inside the pages point at internal tooling and ask for authentication, so they will not open for other viewers. The hosted app is a shared demo with an in-memory database: anyone can register and add to a cart, and it resets when the service restarts.
 
 ## At a glance
 
