@@ -1,0 +1,18 @@
+{
+  "what": "Patrick's fork of the ECI debugging assessment (a persona storefront with bugs seeded through it) builds green, runs end to end with zero errors in the UI smoke, has all 16 seeded bugs found, fixed, pushed, and written up, and the model-usage diagram he asked for mid-interview is rendered on his Mac.",
+  "takeaway": "Everything asked for is done: sixteen bugs fixed with one commit each, build and lint and typecheck green, UI smoke against the live API passed, FINDINGS.md pushed, model-usage diagram live; only the health watch keeps running until the fleet closes.",
+  "needsYou": [],
+  "done": [
+    "Fork + clone of eci-global/interview-built-by-a-clanker, deps installed (pnpm 9.15)",
+    "Baseline build green (BUG-01 tsconfig types, commit 1aee572)",
+    "7 API/shared bugs fixed, sweep exhausted, root pnpm build green (commits 477e285..1c26490, 5b4bc9b)",
+    "9 web bugs fixed and pushed (commits 0fc142d..89fc70c); full UI smoke vs live API passed, 0 errors",
+    "Final: root build, lint, typecheck green; FINDINGS.md pushed (ca597e6)",
+    "Model-usage diagram live and rendered on the M4 (154,463 messages, 30 days, 4 families)",
+    "Successor overseer seated on Fable; decision q-successor-quota decided (A), consequence done"
+  ],
+  "notDone": [
+    "Health/stuck-ward watch keeps running every cycle until the fleet closes (ward-survival, 20%)"
+  ],
+  "updatedAt": "Oct 12, 2026, 2:48 PM ET"
+}

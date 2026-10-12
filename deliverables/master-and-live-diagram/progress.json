@@ -1,0 +1,139 @@
+{
+  "title": "EciRoundTwoLive \u2014 Initiative Master",
+  "type": "status",
+  "updatedAt": "2026-10-12T15:40 ET",
+  "master": {
+    "label": "Overall",
+    "pct": 97
+  },
+  "items": [
+    {
+      "id": "gate-answers",
+      "label": "Answer the questions for Patrick \u2014 1 of 1",
+      "pct": 100,
+      "status": "done",
+      "gate": true,
+      "note": "derived by the deliverable sweep from the SSOT \u2014 never hand-edit"
+    },
+    {
+      "id": "p1-fork",
+      "label": "1 \u00b7 Fork + clone the assessment repo",
+      "pct": 100,
+      "status": "done",
+      "owner": "overseer 6aebbb24 (Fable)",
+      "blocker": ""
+    },
+    {
+      "id": "p2-install",
+      "label": "2 \u00b7 Install deps (pnpm 9.15, dev deps)",
+      "pct": 100,
+      "status": "done",
+      "owner": "overseer 6aebbb24",
+      "blocker": ""
+    },
+    {
+      "id": "p3-baseline",
+      "label": "3 \u00b7 Baseline build \u2014 GREEN (BUG-01 tsconfig types, commit 1aee572)",
+      "pct": 100,
+      "status": "done",
+      "owner": "ward-api-shared 1f78bf01-8889-42cd-bc74-8e0fcfaad33a (Fable)",
+      "blocker": ""
+    },
+    {
+      "id": "p4-api-shared",
+      "label": "4 \u00b7 Fix API + shared bugs \u2014 7 FIXED, sweep exhausted, root pnpm build GREEN",
+      "pct": 100,
+      "status": "done",
+      "owner": "ward-api-shared 1f78bf01-8889-42cd-bc74-8e0fcfaad33a (Fable)",
+      "blocker": ""
+    },
+    {
+      "id": "p5-web",
+      "label": "5 \u00b7 Fix web bugs \u2014 9 FIXED + pushed, full UI smoke vs live API PASSED (0 errors)",
+      "pct": 100,
+      "status": "done",
+      "owner": "ward-web fbf41593-425a-44cf-89ce-2e3cbcbedc2a (Fable)",
+      "blocker": ""
+    },
+    {
+      "id": "p6-survival",
+      "label": "6 \u00b7 Health + stuck-ward watch every cycle",
+      "pct": 20,
+      "status": "in-progress",
+      "owner": "ward-survival 9436d48a-2683-42c3-866c-50d9be516a12 (Fable)",
+      "blocker": ""
+    },
+    {
+      "id": "p7-succession",
+      "label": "7 \u00b7 Successor overseer seated (Fable)",
+      "pct": 100,
+      "status": "done",
+      "owner": "successor 3df3fdfb (Fable)",
+      "blocker": ""
+    },
+    {
+      "id": "p8-models",
+      "label": "8 \u00b7 Model-usage diagram \u2014 LIVE + rendered on the M4 (154,463 msgs, 30 days, 4 families)",
+      "pct": 100,
+      "status": "done",
+      "owner": "ward-models e262f9c5-19e9-4caa-83e3-77cec68452b2 (Fable)",
+      "blocker": ""
+    },
+    {
+      "id": "p9-final",
+      "label": "9 \u00b7 Final: root build green \u2713 \u00b7 UI smoke \u2713 \u00b7 FINDINGS.md pushed (ca597e6) \u2713 \u00b7 lint/typecheck \u2713",
+      "pct": 100,
+      "status": "done",
+      "owner": "overseer 3df3fdfb-65a5-4055-af90-b2cb4044b2f7",
+      "blocker": ""
+    },
+    {
+      "id": "p10-bugreport",
+      "label": "10 \u00b7 Bug report: 16 fixes, each with simple view + detail (live; more diagrams pending)",
+      "pct": 75,
+      "status": "in-progress",
+      "owner": "overseer 3df3fdfb-65a5-4055-af90-b2cb4044b2f7 (ward-bug-report 8277710f-7f73-46c8-84e5-74cb1084ac4f halted by usage limit 2:50 PM ET)",
+      "blocker": ""
+    },
+    {
+      "id": "p11-diagrams",
+      "label": "11 \u00b7 Live interactive diagrams: architecture map + 2 scenarios live, Heart voice narration (23 clips)",
+      "pct": 50,
+      "status": "in-progress",
+      "owner": "relay-diagrams 55682e2c-a30b-4342-ba4a-09270e5027a2 (Fable)",
+      "blocker": ""
+    },
+    {
+      "id": "p12-ui",
+      "label": "12 \u00b7 App UI open in Chrome + Cursor on Patrick's bottom-left display (tunnel; hosted version is item 13)",
+      "pct": 100,
+      "status": "done",
+      "owner": "overseer 3df3fdfb-65a5-4055-af90-b2cb4044b2f7",
+      "blocker": ""
+    },
+    {
+      "id": "p13-host",
+      "label": "13 \u00b7 Real app hosted on DigitalOcean behind the workspace portal (login screen verified, round trip passed; Patrick-only for now)",
+      "pct": 100,
+      "status": "done",
+      "owner": "ward-host-app 09721082-a1e3-4189-bc36-5ad5829dce6a (Fable)",
+      "blocker": ""
+    },
+    {
+      "id": "p14-walk",
+      "label": "14 \u00b7 UI walkthrough: 18-step Next/Back tutorial live (14 spotlighted screenshots, where-in-code strips)",
+      "pct": 100,
+      "status": "done",
+      "owner": "ward-walkthrough 47b19cf0-e402-49bd-9fed-aacee7adc04f (Fable)",
+      "blocker": ""
+    },
+    {
+      "id": "p15-public",
+      "label": "15 \u00b7 Make this fleet's deliverables public (leak audit first, LCB links neutralized, anonymous Playwright proof of every deliverable)",
+      "pct": 5,
+      "status": "in-progress",
+      "owner": "ward-public 0216212b-78d1-40b8-adfe-d9f160c03b3a (Fable)",
+      "blocker": ""
+    }
+  ]
+}

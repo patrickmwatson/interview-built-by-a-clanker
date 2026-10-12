@@ -1,0 +1,5 @@
+{
+  "what": "A Next/Back tutorial on the real storefront showing where each of the 16 ECI bugs appeared in the UI and how it was fixed.",
+  "takeaway": "All 16 bugs are fixed. Each step shows the live app with the affected element highlighted, the fix in plain words, and the file and before/after change.",
+  "updatedAt": "2026-10-12T15:30 ET"
+}

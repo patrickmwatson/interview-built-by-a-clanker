@@ -1,0 +1,477 @@
+<!DOCTYPE html>
+<!-- generated-by: lhi-deliverable:create v2 (plan-render --layout tree) type=plan initiative=eci-round-two-live-tree session=unknown generated=2026-10-12T19:32:24.279Z -->
+<html lang="en"><head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="mission-pct" content="0">
+<meta http-equiv="refresh" content="900">
+<title>EciRoundTwoLive Tree — Plan Tree · 10/12/2026, 03:32:24 PM EDT</title>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%231A1423'/%3E%3Ctext x='16' y='22' font-size='15' font-family='sans-serif' font-weight='700' fill='%23BA9EFF' text-anchor='middle'%3EL%3C/text%3E%3C/svg%3E">
+<style>
+  :root{
+    --bg:#150f25;--panel:#241b30;--panel2:#2c2140;--line:rgba(186,158,255,.18);
+    --ink:#e8e0f4;--mut:#a99fc0;
+    --amethyst:#ba9eff;--lilac:#edd9ff;
+    --green:#5bd99a;--yellow:#f2c66b;--red:#ff6b6b;--gray:#6e6485;
+  }
+  *{box-sizing:border-box}
+  body{margin:0;background:radial-gradient(1100px 520px at 12% -8%,rgba(139,111,224,.20),transparent 60%),var(--bg);
+    color:var(--ink);font:15px/1.55 -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+  .wrap{max-width:1080px;margin:0 auto;padding:30px 22px 70px}
+  header{display:flex;align-items:center;gap:16px;border-bottom:1px solid var(--line);padding-bottom:20px}
+  .header-actions{margin-left:auto;flex-shrink:0}
+  a.sibling-link{display:inline-block;font-size:11.5px;font-weight:700;color:var(--amethyst);
+    text-decoration:none;border:1px solid rgba(186,158,255,.4);border-radius:9px;padding:6px 13px;
+    white-space:nowrap}
+  a.sibling-link:hover{background:rgba(186,158,255,.14)}
+  .logo{width:54px;height:54px;border-radius:12px;background:linear-gradient(150deg,#8b6fe0,#ba9eff);
+    display:grid;place-items:center;font-weight:900;color:#150f25;font-size:18px}
+  h1{margin:0;font-size:24px;color:var(--lilac)}
+  .sub{color:var(--mut);font-size:13px;margin-top:3px}
+  h2{font-size:12px;text-transform:uppercase;letter-spacing:.14em;color:var(--amethyst);
+    margin:30px 0 12px;display:flex;gap:10px;align-items:center}
+  h2::after{content:"";flex:1;height:1px;background:var(--line)}
+  .summary{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:12px}
+  .stat{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:14px 16px}
+  .stat .n{font-size:26px;font-weight:800;color:var(--amethyst)}
+  .stat .l{font-size:12px;color:var(--mut);margin-top:2px}
+  .stat.warn .n{color:var(--yellow)} .stat.bad .n{color:var(--red)} .stat.ok .n{color:var(--green)}
+  .cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:14px}
+  .card{background:var(--panel);border:1px solid var(--line);border-radius:13px;padding:16px 18px}
+  .card h3{margin:0 0 3px;font-size:15px;color:var(--lilac);
+    display:flex;justify-content:space-between;align-items:center;gap:8px}
+  .pill{font-size:10.5px;font-weight:700;padding:2px 9px;border-radius:999px;white-space:nowrap}
+  .pill.ok{background:rgba(91,217,154,.14);color:var(--green)}
+  .pill.warn{background:rgba(242,198,107,.14);color:var(--yellow)}
+  .pill.bad{background:rgba(255,107,107,.14);color:var(--red)}
+  .uuid{font-family:ui-monospace,Menlo,monospace;font-size:11px;color:var(--mut)}
+  .bar{height:8px;border-radius:5px;background:rgba(26,20,35,.7);border:1px solid var(--line);overflow:hidden;margin-top:12px}
+  .bar>i{display:block;height:100%}
+  .note{font-size:12px;color:var(--mut);margin-top:10px}
+  .tree{background:var(--panel);border:1px solid var(--line);border-radius:13px;padding:18px 10px 12px}
+  code{background:rgba(186,158,255,.1);color:var(--amethyst);padding:1px 5px;border-radius:4px;font-size:12px}
+  footer{margin-top:36px;border-top:1px solid var(--line);padding-top:14px;color:var(--mut);font-size:11.5px;line-height:1.7}
+  .metrics{display:flex;gap:16px;margin-top:12px;flex-wrap:wrap}
+  .metrics div{font-size:12px;color:var(--mut)}
+  .metrics b{display:block;font-size:20px;font-weight:800;color:var(--ink)}
+  .relay{}
+  .obj{font-size:12.5px;color:var(--ink);margin-top:8px;opacity:.9}
+
+#viewport{position:relative;height:78vh;min-height:540px;margin-top:14px;border:1px solid var(--line);
+  border-radius:14px;background:
+    radial-gradient(rgba(186,158,255,.07) 1px,transparent 1px) 0 0/26px 26px,
+    rgba(26,20,35,.5);
+  overflow:hidden;cursor:grab;user-select:none;touch-action:none}
+#viewport.grabbing{cursor:grabbing}
+#world{position:absolute;top:0;left:0;transform-origin:0 0}
+#edges{position:absolute;top:0;left:0;pointer-events:none;z-index:0}
+.node{position:absolute;z-index:1;background:var(--panel);border:1px solid var(--line);border-radius:12px;
+  padding:10px 12px;box-shadow:0 3px 14px rgba(0,0,0,.3)}
+/* Task A containment (2026-07-06): overflow-wrap/word-break so long/unbroken text wraps inside the
+   fixed-width card, then line-clamps; full text stays available via the card's title tooltip. */
+.node .nm{font-size:12px;color:var(--ink);line-height:1.4;margin-top:2px;
+  overflow-wrap:anywhere;word-break:break-word;
+  display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
+.node.root{border-color:rgba(186,158,255,.55);background:linear-gradient(160deg,#2f2347,#241b30)}
+.node.root .nm{font-size:15.5px;font-weight:700;color:var(--lilac);-webkit-line-clamp:2}
+.node.seat{border-color:rgba(186,158,255,.35);background:linear-gradient(160deg,#2a2040,#241b30)}
+/* Warden band (fleet-children, 2026-07-06): SESSION cards — deliberately styled like the seat
+   (gradient session-card look), NOT like task progress-cards, so fleet vs work reads at a glance. */
+.node.warden{border-color:rgba(186,158,255,.42);background:linear-gradient(160deg,#2a2040,#241b30)}
+.node.warden .nm{font-weight:600;-webkit-line-clamp:2}
+/* Wisdom warden: lineage_relation='adopted' — a predecessor adopted under the successor seat
+   (ratified doctrine 2026-07-06). Subtle gold tint, still clearly a session card. */
+.node.warden.wisdom{border-color:rgba(242,198,107,.45);background:linear-gradient(160deg,#332a1d,#241b30)}
+.chip.rel{background:rgba(110,100,133,.2);color:var(--mut)}
+.chip.wisdom{background:rgba(242,198,107,.16);color:var(--yellow)}
+.node.task .nm{font-weight:600;color:var(--lilac);-webkit-line-clamp:2}
+.node.step{background:var(--panel2);padding:8px 10px;border-radius:10px}
+.node.step.done{border-color:rgba(91,217,154,.35)}
+.node.step.done .nm{color:var(--mut)}
+.chiprow{display:flex;gap:5px;flex-wrap:wrap;align-items:center}
+.chip{display:inline-block;font-size:9px;font-weight:800;letter-spacing:.07em;padding:2px 7px;
+  border-radius:999px;text-transform:uppercase;white-space:nowrap}
+.chip.kind{background:rgba(186,158,255,.14);color:var(--amethyst)}
+.chip.pok{background:rgba(91,217,154,.14);color:var(--green)}
+.chip.pwarn{background:rgba(242,198,107,.14);color:var(--yellow)}
+.chip.pbad{background:rgba(255,107,107,.14);color:var(--red)}
+.chip.pnone{background:rgba(110,100,133,.18);color:var(--mut)}
+.chip.live{background:rgba(91,217,154,.16);color:var(--green)}
+.chip.dead{background:rgba(255,107,107,.16);color:var(--red)}
+.nbar{height:7px;border-radius:4px;background:rgba(26,20,35,.75);border:1px solid var(--line);
+  overflow:hidden;margin:8px 0 2px}
+.nbar>i{display:block;height:100%;border-radius:3px}
+.uuid2{font-family:ui-monospace,Menlo,monospace;font-size:9px;color:var(--mut);word-break:break-all;
+  margin-top:6px;line-height:1.35}
+/* Task B (2026-07-06): context circle — TOP-LEFT badge on session-bound cards (prototypes the CSM
+   swap: this slot is where the auth ✓ sits today; the circle takes it). Always visible when data
+   exists; NO circle when model/token_usage unknown (honest absence beats a wrong number). */
+.ctxwrap{position:absolute;top:-12px;left:-12px;display:flex;align-items:center;gap:4px;z-index:2;
+  background:var(--panel2);border:1px solid var(--line);border-radius:999px;padding:2px 8px 2px 3px;
+  box-shadow:0 2px 8px rgba(0,0,0,.35);cursor:default}
+.ctxwrap .pctnum{font-size:9.5px;font-weight:800;letter-spacing:.02em;line-height:1;white-space:nowrap}
+a.lcb{display:inline-block;margin-top:7px;font-size:10.5px;font-weight:600;color:var(--amethyst);
+  text-decoration:none;border:1px solid rgba(186,158,255,.35);border-radius:7px;padding:2px 9px}
+a.lcb:hover{background:rgba(186,158,255,.12)}
+#ctrl{position:absolute;right:14px;top:14px;display:flex;gap:6px;z-index:5}
+#ctrl button{width:32px;height:32px;border-radius:9px;border:1px solid var(--line);background:var(--panel);
+  color:var(--lilac);font-size:15px;font-weight:700;cursor:pointer}
+#ctrl button:hover{background:var(--panel2)}
+.legend{margin-top:10px;font-size:11.5px;color:var(--mut);line-height:1.7}
+</style></head>
+<body><div class="wrap" style="max-width:none;padding-left:28px;padding-right:28px">
+
+<header>
+  <div class="logo">LHI</div>
+  <div>
+    <h1>EciRoundTwoLive Tree</h1>
+    <div class="sub">Interactive plan tree &nbsp;·&nbsp; 10/12/2026, 03:32:24 PM EDT &nbsp;·&nbsp; auto-refresh 15 min &nbsp;·&nbsp; super-owner &nbsp;·&nbsp; drag to pan, scroll to zoom</div>
+  </div>
+  
+</header>
+
+<div id="viewport" title="Drag to pan · scroll to zoom · buttons top-right">
+  <div id="world"><svg id="edges" xmlns="http://www.w3.org/2000/svg"></svg></div>
+  <div id="ctrl">
+    <button id="zin" title="Zoom in">+</button>
+    <button id="zout" title="Zoom out">−</button>
+    <button id="zfit" title="Fit the whole tree in view">⤢</button>
+  </div>
+</div>
+
+<div class="legend">
+  <b style="color:var(--amethyst)">How the bars work:</b> progress is AUTHORED only at the leaves
+  (each checkbox step is 0% or 100%); every parent bar — task, warden, overseer seat, initiative
+  root — is <b>calculated bottom-up</b> from its children. Nodes owned by a session show the
+  session's name, full UUID, live/dead state, and an Open-in-LCB resume link. Session-bound cards
+  also carry a top-left <b>context circle</b> — NN% of context remaining until auto-compact
+  (green &gt;50% · yellow 20–50% · red &lt;20%; interim static model→window map; dead sessions
+  keep their last-known value; no circle = no data).
+  <br><b style="color:var(--amethyst)">Warden band:</b> the seat's REAL fleet children, read
+  automatically from the PB SSOT (claude_sessions where parent_uuid/overseer_uuid = seat) so this
+  tree reflects what Claude Session Management shows. A task branch whose <code>owner: &lt;uuid&gt;</code>
+  names a fleet child hangs UNDER that warden's card (warden = story owner); unowned tasks stay
+  directly under the seat. A gold-tinted <b>wisdom</b> warden is a predecessor adopted under the
+  current seat (lineage_relation=adopted).
+</div>
+
+<h2 style="font-size:12px;text-transform:uppercase;letter-spacing:.14em;color:var(--amethyst);margin:24px 0 12px">Decisions &amp; Wisdom</h2>
+<div class="card" style="background:var(--panel);border:1px solid var(--line);border-radius:13px;padding:16px 18px">
+  <div class="sub" style="color:var(--mut);font-size:13px;margin-bottom:10px">From this overseer's charter — <code>scripts/session-registry/overseer/ECI_ROUND_TWO_LIVE_CHARTER.md</code></div>
+  <ol style="margin:0;padding-left:20px"><li style="margin-bottom:6px"><span style="color:var(--mut)">1.</span> (2:40 PM ET, 3df3fdfb) Front Desk spawned two duplicate 'become overseer' sessions (b07af114, a4047619) 2:16-2:17 PM ET while 6aebbb24 already held the seat; both correctly refused the seat and sat idle. They are NOT wards; do not count them. One of them did the fork+clone.</li><li style="margin-bottom:6px"><span style="color:var(--mut)">2.</span> (2:40 PM ET, 3df3fdfb) The baseline build break was tsc auto-loading a stray ancestor node_modules/@types stub; pinning compilerOptions.types fixed it. Expect the same class of trap in apps/web.</li><li style="margin-bottom:6px"><span style="color:var(--mut)">3.</span> (2:40 PM ET, 3df3fdfb) Host load gate (load&lt;16) delays each spawn by up to 5 min; write the spawn as a backgrounded script with a load-wait loop and poll its log rather than blocking a turn.</li></ol>
+</div>
+
+<footer>
+  <b>How this view works:</b> regenerated by <code>scripts/session-registry/overseer/plan-render.mjs --layout tree</code>
+  (part of the <code>lhi-deliverable:*</code> family) parsing the superpowers plan-checkbox convention —
+  leaf nodes = the plan's <code>- [ ]</code>/<code>- [x]</code> steps (the only authored progress); task/seat/root bars are computed bottom-up.
+  A task heading or step line may carry <code>owner: &lt;full-uuid&gt;</code> to bind it to a session.
+  The warden band is auto-populated from the PB SSOT (claude_sessions parent_uuid/overseer_uuid = seat).
+  <br>Source plan: <code>/home/patrickwatsonlhi/lhi_scripts/scripts/session-registry/overseer/lib/no-plan-placeholder.md</code>
+  &nbsp;·&nbsp; Initiative: <code>eci-round-two-live-tree</code>
+  &nbsp;·&nbsp; Overseer seat: <code>3df3fdfb-65a5-4055-af90-b2cb4044b2f7</code>
+  &nbsp;·&nbsp; Fleet children: <code>9</code>
+  &nbsp;·&nbsp; Session: <code></code>
+  &nbsp;·&nbsp; Generated: 10/12/2026, 03:32:24 PM EDT.
+</footer>
+</div>
+
+<script>
+(function () {
+  'use strict'
+  var M = {"initiative":{"id":"eci-round-two-live-tree","name":"EciRoundTwoLive Tree","pct":null,"doneSteps":0,"totalSteps":0},"seat":{"uuid":"3df3fdfb-65a5-4055-af90-b2cb4044b2f7","name":"eci-round-two-live · Overseer","state":"live","url":"","ctxPct":68,"relation":"spawned"},"wardens":[{"uuid":"1f78bf01-8889-42cd-bc74-8e0fcfaad33a","name":"eci-round-two-live · Ward","state":"live","url":"","ctxPct":80,"relation":"spawned","taskIdx":[],"pct":100,"wardStatus":"DONE"},{"uuid":"1b67ff37-c6f5-4fc8-aeac-9b943c7b261c","name":"Ward","state":"live","url":"","ctxPct":78,"relation":"spawned","taskIdx":[],"pct":null,"wardStatus":"LIVE"},{"uuid":"55682e2c-a30b-4342-ba4a-09270e5027a2","name":"Ward","state":"live","url":"","ctxPct":76,"relation":"spawned","taskIdx":[],"pct":50,"wardStatus":"LIVE"},{"uuid":"9436d48a-2683-42c3-866c-50d9be516a12","name":"Ward","state":"live","url":"","ctxPct":82,"relation":"spawned","taskIdx":[],"pct":20,"wardStatus":"LIVE"},{"uuid":"8277710f-7f73-46c8-84e5-74cb1084ac4f","name":"Ward","state":"live","url":"","ctxPct":null,"relation":"spawned","taskIdx":[],"pct":75,"wardStatus":"LIVE"},{"uuid":"e262f9c5-19e9-4caa-83e3-77cec68452b2","name":"Ward","state":"live","url":"","ctxPct":82,"relation":"spawned","taskIdx":[],"pct":100,"wardStatus":"DONE"},{"uuid":"fbf41593-425a-44cf-89ce-2e3cbcbedc2a","name":"Ward","state":"live","url":"","ctxPct":77,"relation":"spawned","taskIdx":[],"pct":100,"wardStatus":"DONE"},{"uuid":"09721082-a1e3-4189-bc36-5ad5829dce6a","name":"ward (ledger)","state":"live","url":"","ctxPct":null,"relation":"spawned","taskIdx":[],"pct":100,"wardStatus":"DONE"},{"uuid":"47b19cf0-e402-49bd-9fed-aacee7adc04f","name":"ward (ledger)","state":"live","url":"","ctxPct":null,"relation":"spawned","taskIdx":[],"pct":100,"wardStatus":"DONE"}],"unownedTaskIdx":[],"tasks":[]}
+  var vp = document.getElementById('viewport')
+  var world = document.getElementById('world')
+  var svg = document.getElementById('edges')
+  var SVGNS = 'http://www.w3.org/2000/svg'
+  var COLW = 260, GAPX = 36, IND = 24, VGAP = 13, TIER = 62, WARDW = 300
+
+  function pctColor(p) { if (p == null) return '#4a4360'; if (p >= 80) return '#5bd99a'; if (p >= 40) return '#f2c66b'; return '#ff6b6b' }
+  function pctChip(p) {
+    if (p == null) return { txt: 'no steps', cls: 'pnone' }
+    return { txt: p + '%', cls: p >= 80 ? 'pok' : p >= 40 ? 'pwarn' : 'pbad' }
+  }
+  function mk(tag, cls, parent) { var e = document.createElement(tag); if (cls) e.className = cls; if (parent) parent.appendChild(e); return e }
+
+  // ctxUsedColor — INLINED into the browser scope (this <script> cannot ES-import ../lib/context-pct.mjs;
+  // that path does not resolve relative to a deliverable dir, and a bare reference throws a ReferenceError
+  // the instant a node has a non-null ctxPct → blanks the canvas). SSOT preserved: the stop boundaries are
+  // serialized from context-pct.mjs's exported CTX_USED_COLOR_STOPS at render time (Infinity → null sentinel,
+  // JSON can't carry Infinity), so changing the boundaries in the shared module flows here on next render.
+  var CTX_USED_COLOR_STOPS = [{"max":50,"color":"#22c55e"},{"max":60,"color":"#eab308"},{"max":70,"color":"#f97316"},{"max":null,"color":"#ef4444"}]
+  function ctxUsedColor(usedPct) {
+    for (var _i = 0; _i < CTX_USED_COLOR_STOPS.length; _i++) {
+      var _s = CTX_USED_COLOR_STOPS[_i]
+      if (_s.max == null || usedPct < _s.max) return _s.color
+    }
+    return CTX_USED_COLOR_STOPS[CTX_USED_COLOR_STOPS.length - 1].color
+  }
+
+  // Context PIE (Patrick FINAL directive 2026-07-07 ~11:40 PM ET — see contextPct.mjs's header comment
+  // in the React repo for the full history: supersedes the earlier ring/arc + a verbatim-plugin
+  // hide-<50%-used iteration). ALWAYS VISIBLE, filled pie proportional to USED%, 4-stop
+  // GREEN→YELLOW→ORANGE→RED via the shared ctxUsedColor (inlined just above from CTX_USED_COLOR_STOPS — the
+  // SAME boundaries the React Tree v2 card uses). Number shown = USED% (100-remaining); tooltip carries both.
+  function ctxCircle(remaining) {
+    var used = 100 - remaining
+    var color = ctxUsedColor(used)
+    var wrap = document.createElement('span')
+    wrap.className = 'ctxwrap'
+    wrap.title = used + '% context used\n' + remaining + '% of context remaining until auto-compact.'
+    var R = 6.5, CX = 9, CY = 9
+    var frac = Math.max(0, Math.min(1, used / 100))
+    var svgEl = document.createElementNS(SVGNS, 'svg')
+    svgEl.setAttribute('width', '18'); svgEl.setAttribute('height', '18'); svgEl.setAttribute('viewBox', '0 0 18 18')
+    var track = document.createElementNS(SVGNS, 'circle')
+    track.setAttribute('cx', String(CX)); track.setAttribute('cy', String(CY)); track.setAttribute('r', String(R))
+    track.setAttribute('fill', 'none'); track.setAttribute('stroke', color)
+    track.setAttribute('stroke-opacity', '0.18'); track.setAttribute('stroke-width', '2')
+    svgEl.appendChild(track)
+    if (frac >= 0.999) {
+      var full = document.createElementNS(SVGNS, 'circle')
+      full.setAttribute('cx', String(CX)); full.setAttribute('cy', String(CY)); full.setAttribute('r', String(R))
+      full.setAttribute('fill', color)
+      svgEl.appendChild(full)
+    } else {
+      var start = -Math.PI / 2
+      var end = start + frac * 2 * Math.PI
+      var x1 = CX + R * Math.cos(start), y1 = CY + R * Math.sin(start)
+      var x2 = CX + R * Math.cos(end), y2 = CY + R * Math.sin(end)
+      var largeArc = frac > 0.5 ? 1 : 0
+      var wedge = document.createElementNS(SVGNS, 'path')
+      wedge.setAttribute('d', 'M ' + CX + ' ' + CY + ' L ' + x1.toFixed(3) + ' ' + y1.toFixed(3) +
+        ' A ' + R + ' ' + R + ' 0 ' + largeArc + ' 1 ' + x2.toFixed(3) + ' ' + y2.toFixed(3) + ' Z')
+      wedge.setAttribute('fill', color)
+      svgEl.appendChild(wedge)
+    }
+    wrap.appendChild(svgEl)
+    var num = document.createElement('span')
+    num.className = 'pctnum'
+    num.style.color = color
+    num.textContent = used + '%'
+    wrap.appendChild(num)
+    return wrap
+  }
+
+  // Node card = BARE MINIMUM: progress bar + name (+ session uuid / Open-in-LCB when owned).
+  function card(o) { // {kind,w,pct,name,tooltip,chips[],session}
+    var c = mk('div', 'node ' + o.kind, world)
+    c.style.width = o.w + 'px'
+    c.title = o.tooltip || o.name
+    var row = mk('div', 'chiprow', c)
+    ;(o.chips || []).forEach(function (x) { var s = mk('span', 'chip ' + x.cls, row); s.textContent = x.txt; if (x.tip) s.title = x.tip })
+    var bar = mk('div', 'nbar', c)
+    bar.title = o.pct == null ? 'No checkbox steps under this node yet' :
+      (o.computed ? 'Computed bottom-up from children: ' + o.pct + '%' : 'Leaf (authored): ' + o.pct + '%')
+    var fill = mk('i', '', bar)
+    fill.style.width = (o.pct == null ? 0 : o.pct) + '%'
+    fill.style.background = pctColor(o.pct)
+    var nm = mk('div', 'nm', c)
+    nm.textContent = o.name
+    if (o.session) {
+      var u = mk('div', 'uuid2', c)
+      u.textContent = o.session.uuid
+      u.title = 'Full session UUID (verbatim): ' + o.session.uuid
+      if (o.session.url) {
+        var a = mk('a', 'lcb', c)
+        a.textContent = 'Open in LCB ↗'
+        a.href = o.session.url
+        a.target = '_blank'; a.rel = 'noopener'
+        a.title = 'Resume this session in LHI Claude Browser (canonical bridge-proxy URL, DO bridge)'
+      }
+      // Context circle: always visible when data exists (even on dead sessions — last-known value);
+      // rendered for NO node when model/token_usage are unknown (honest absence).
+      if (o.session.ctxPct != null) c.appendChild(ctxCircle(o.session.ctxPct))
+    }
+    return c
+  }
+
+  function sessionChips(s) {
+    if (!s) return []
+    var st = s.state === 'live' ? { txt: 'live', cls: 'live', tip: 'tmux session alive on the render machine' }
+           : s.state === 'dead' ? { txt: 'dead', cls: 'dead', tip: 'no live tmux session on the render machine' }
+           : { txt: 'state?', cls: 'pnone', tip: 'live/dead state not determinable from the render machine' }
+    return [st]
+  }
+
+  // ---- build cards ----
+  var ip = pctChip(M.initiative.pct)
+  var rootCard = card({
+    kind: 'root', w: 380, pct: M.initiative.pct, computed: true, name: M.initiative.name,
+    tooltip: 'Initiative ' + M.initiative.id + ' — total progress computed bottom-up: ' + M.initiative.doneSteps + '/' + M.initiative.totalSteps + ' leaf steps done',
+    chips: [{ txt: 'initiative', cls: 'kind', tip: 'Root node — the chartered unit of work' }, { txt: ip.txt, cls: ip.cls }, { txt: M.initiative.doneSteps + '/' + M.initiative.totalSteps + ' steps', cls: 'pnone', tip: 'done / total checkbox steps across the whole plan' }],
+  })
+  var seatCard = null
+  if (M.seat) {
+    seatCard = card({
+      kind: 'seat', w: 340, pct: M.initiative.pct, computed: true,
+      name: M.seat.name || 'Overseer seat',
+      tooltip: 'The overseer seat session leading this initiative. Bar = computed (it owns all tasks).',
+      chips: [{ txt: 'overseer seat', cls: 'kind', tip: 'The session holding the overseer role for this initiative' }, pctChip(M.initiative.pct)].concat(sessionChips(M.seat)),
+      session: M.seat,
+    })
+  }
+  // Warden band (fleet-children, 2026-07-06): SESSION cards for the seat's real fleet children
+  // (from the PB SSOT). A wisdom warden (lineage_relation='adopted') gets the gold tint.
+  var wardenCards = (M.wardens || []).map(function (w) {
+    var wp = pctChip(w.pct)
+    var chips = [
+      ...(w.wardStatus ? [{ txt: w.wardStatus, cls: w.wardStatus === 'DONE' ? 'pok' : (w.wardStatus === 'LIVE' ? 'live' : 'rel'), tip: 'Ward status: DONE = every master item it owns is 100%; LIVE = session up and not done; IDLE = session not running' }] : []),
+      { txt: 'warden', cls: 'kind', tip: 'Fleet child of the overseer seat (PB claude_sessions: parent_uuid/overseer_uuid = seat)' },
+      { txt: wp.txt, cls: wp.cls, tip: w.taskIdx.length ? 'Computed bottom-up from the leaves of its ' + w.taskIdx.length + ' owned task branch(es)' : 'No task branch bound to this warden yet — add owner: <full-uuid> to a task heading to bind one' },
+    ]
+    if (w.relation) chips.push(w.relation === 'adopted'
+      ? { txt: 'wisdom · adopted', cls: 'wisdom', tip: 'Wisdom warden — a predecessor adopted under the current seat (lineage_relation=adopted); still consultable' }
+      : { txt: w.relation, cls: 'rel', tip: 'lineage_relation from the CSM SSOT: ' + w.relation })
+    return card({
+      kind: 'warden' + (w.relation === 'adopted' ? ' wisdom' : ''),
+      w: WARDW, pct: w.pct, computed: true,
+      name: w.name || 'Warden (unnamed)',
+      tooltip: 'Fleet warden under the overseer seat — owns ' + w.taskIdx.length + ' task branch(es); bar computed from their leaves.',
+      chips: chips.concat(sessionChips(w)),
+      session: w,
+    })
+  })
+  var taskCards = [], stepCards = []
+  M.tasks.forEach(function (t, i) {
+    var tp = pctChip(t.pct)
+    taskCards.push(card({
+      kind: 'task', w: COLW, pct: t.pct, computed: true, name: t.name,
+      tooltip: 'Task ' + (i + 1) + ' — bar computed from its ' + t.steps.length + ' step leaves. ' + t.name,
+      chips: [{ txt: 'task ' + (i + 1), cls: 'kind' }, { txt: tp.txt, cls: tp.cls }].concat(sessionChips(t.owner)),
+      session: t.owner,
+    }))
+    stepCards.push(t.steps.map(function (s) {
+      return card({
+        kind: 'step' + (s.done ? ' done' : ''), w: COLW - IND, pct: s.done ? 100 : 0,
+        name: s.text,
+        tooltip: (s.done ? 'DONE — ' : 'OPEN — ') + s.text,
+        chips: [{ txt: s.done ? '✓ done' : '○ open', cls: s.done ? 'pok' : 'pnone', tip: 'Leaf node — the only place progress is authored (checkbox: 0% or 100%)' }].concat(sessionChips(s.owner)),
+        session: s.owner,
+      })
+    }))
+  })
+
+  // ---- layout (measured heights) ----
+  // Tier 3 groups, left→right: one group per WARDEN (its owned task branches hang below it),
+  // then one group per UNOWNED task (directly under the seat, as before). With zero wardens this
+  // degrades exactly to the original one-column-per-task layout.
+  var groups = []
+  ;(M.wardens || []).forEach(function (w, wi) { groups.push({ wi: wi, taskIdx: w.taskIdx || [] }) })
+  var unowned = M.unownedTaskIdx || M.tasks.map(function (_, i) { return i })
+  unowned.forEach(function (ti) { groups.push({ wi: -1, taskIdx: [ti] }) })
+
+  function groupWidth(g) {
+    var tasksW = g.taskIdx.length ? g.taskIdx.length * COLW + (g.taskIdx.length - 1) * GAPX : 0
+    return g.wi >= 0 ? Math.max(tasksW, WARDW) : COLW
+  }
+  var totalW = groups.reduce(function (acc, g) { return acc + groupWidth(g) }, 0) + Math.max(0, groups.length - 1) * GAPX
+  totalW = Math.max(totalW, 400) // never narrower than the root card
+  var cx = totalW / 2
+  function place(el, x, y) { el.style.left = x + 'px'; el.style.top = y + 'px' }
+
+  place(rootCard, cx - 190, 0)
+  var rootB = rootCard.offsetHeight
+  var seatY = rootB + TIER, seatB = rootB
+  if (seatCard) { place(seatCard, cx - 170, seatY); seatB = seatY + seatCard.offsetHeight }
+  var tier3Y = seatB + TIER
+  var maxBottom = tier3Y, gx = 0, geos = []
+  groups.forEach(function (g) {
+    var gW = groupWidth(g)
+    var tasksW = g.taskIdx.length ? g.taskIdx.length * COLW + (g.taskIdx.length - 1) * GAPX : 0
+    var geo = { anchorX: gx + gW / 2, cols: [], wardenBottom: null, taskY: tier3Y }
+    if (g.wi >= 0) {
+      var wc = wardenCards[g.wi]
+      place(wc, gx + gW / 2 - WARDW / 2, tier3Y)
+      geo.wardenBottom = tier3Y + wc.offsetHeight
+      geo.taskY = geo.wardenBottom + TIER
+      maxBottom = Math.max(maxBottom, geo.wardenBottom)
+    }
+    var tx = gx + (gW - tasksW) / 2
+    g.taskIdx.forEach(function (ti, k) {
+      var x = tx + k * (COLW + GAPX)
+      place(taskCards[ti], x, geo.taskY)
+      var sy = geo.taskY + taskCards[ti].offsetHeight + VGAP + 8
+      var mids = []
+      stepCards[ti].forEach(function (sc) { place(sc, x + IND, sy); mids.push(sy + sc.offsetHeight / 2); sy += sc.offsetHeight + VGAP })
+      maxBottom = Math.max(maxBottom, sy)
+      geo.cols.push({ x: x, cx: x + COLW / 2, taskBottom: geo.taskY + taskCards[ti].offsetHeight, mids: mids })
+    })
+    geos.push(geo)
+    gx += gW + GAPX
+  })
+  var worldW = totalW, worldH = maxBottom + 30
+  world.style.width = worldW + 'px'; world.style.height = worldH + 'px'
+  svg.setAttribute('width', worldW); svg.setAttribute('height', worldH)
+  svg.setAttribute('viewBox', '0 0 ' + worldW + ' ' + worldH)
+
+  // ---- edges (vertical parent→child connectors, org-chart bus + tree spines) ----
+  function seg(pts) {
+    var p = document.createElementNS(SVGNS, 'path')
+    p.setAttribute('d', pts.map(function (pt, i) { return (i ? 'L' : 'M') + pt[0] + ' ' + pt[1] }).join(''))
+    p.setAttribute('fill', 'none'); p.setAttribute('stroke', 'rgba(186,158,255,.42)'); p.setAttribute('stroke-width', '1.6')
+    svg.appendChild(p)
+  }
+  if (seatCard) seg([[cx, rootB], [cx, seatY]])
+  if (groups.length) {
+    // seat (or root, when no seat) → bus → each group's top card (warden card or unowned task card)
+    var busY = tier3Y - Math.round(TIER / 2)
+    seg([[cx, seatB], [cx, busY]])
+    var anchors = geos.map(function (ge) { return ge.anchorX })
+    seg([[Math.min.apply(null, anchors.concat([cx])), busY], [Math.max.apply(null, anchors.concat([cx])), busY]])
+    geos.forEach(function (ge) { seg([[ge.anchorX, busY], [ge.anchorX, tier3Y]]) })
+    geos.forEach(function (ge) {
+      // warden → its owned task branches (the warden owns the branch — epic→story model)
+      if (ge.wardenBottom != null && ge.cols.length) {
+        var wBusY = ge.taskY - Math.round(TIER / 2)
+        seg([[ge.anchorX, ge.wardenBottom], [ge.anchorX, wBusY]])
+        var f = ge.cols[0].cx, l = ge.cols[ge.cols.length - 1].cx
+        seg([[Math.min(f, ge.anchorX), wBusY], [Math.max(l, ge.anchorX), wBusY]])
+        ge.cols.forEach(function (c) { seg([[c.cx, wBusY], [c.cx, ge.taskY]]) })
+      }
+      // task → steps spine (unchanged)
+      ge.cols.forEach(function (c) {
+        if (!c.mids.length) return
+        var spineX = c.x + 11
+        seg([[spineX, c.taskBottom], [spineX, c.mids[c.mids.length - 1]]])
+        c.mids.forEach(function (m) { seg([[spineX, m], [c.x + IND, m]]) })
+      })
+    })
+  }
+
+  // ---- pan / zoom ----
+  var s = 1, px = 0, py = 0
+  function apply() { world.style.transform = 'translate(' + px + 'px,' + py + 'px) scale(' + s + ')' }
+  function fit() {
+    var r = vp.getBoundingClientRect()
+    s = Math.max(0.08, Math.min((r.width - 48) / worldW, (r.height - 48) / worldH, 1))
+    px = (r.width - worldW * s) / 2; py = 24; apply()
+  }
+  function zoomAt(mx, my, k) {
+    var ns = Math.max(0.08, Math.min(3, s * k)); var kk = ns / s
+    px = mx - (mx - px) * kk; py = my - (my - py) * kk; s = ns; apply()
+  }
+  vp.addEventListener('wheel', function (e) {
+    e.preventDefault()
+    var r = vp.getBoundingClientRect()
+    zoomAt(e.clientX - r.left, e.clientY - r.top, Math.pow(1.0015, -e.deltaY))
+  }, { passive: false })
+  var drag = null
+  vp.addEventListener('pointerdown', function (e) {
+    if (e.target.closest('a,button')) return
+    drag = { x: e.clientX, y: e.clientY, px: px, py: py }
+    vp.classList.add('grabbing'); vp.setPointerCapture(e.pointerId)
+  })
+  vp.addEventListener('pointermove', function (e) {
+    if (!drag) return
+    px = drag.px + (e.clientX - drag.x); py = drag.py + (e.clientY - drag.y); apply()
+  })
+  vp.addEventListener('pointerup', function () { drag = null; vp.classList.remove('grabbing') })
+  vp.addEventListener('pointercancel', function () { drag = null; vp.classList.remove('grabbing') })
+  document.getElementById('zin').addEventListener('click', function () { var r = vp.getBoundingClientRect(); zoomAt(r.width / 2, r.height / 2, 1.25) })
+  document.getElementById('zout').addEventListener('click', function () { var r = vp.getBoundingClientRect(); zoomAt(r.width / 2, r.height / 2, 0.8) })
+  document.getElementById('zfit').addEventListener('click', fit)
+  fit()
+})()
+</script>
+</body></html>

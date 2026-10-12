@@ -1,0 +1,52 @@
+{
+  "links": [
+    {
+      "label": "Plan breakdown (PLAN.md)",
+      "url": "https://lifehackinnovations.com/go/?p=/home/patrickwatsonlhi/lhi_scripts/interviews/eci-live/PLAN.md",
+      "kind": "doc",
+      "note": "",
+      "addedBy": "3df3fdfb-65a5-4055-af90-b2cb4044b2f7",
+      "addedAt": "2026-10-12 2:39 PM ET"
+    },
+    {
+      "label": "Patrick's fork (commit trail)",
+      "url": "https://github.com/patrickmwatson/interview-built-by-a-clanker/commits/main",
+      "kind": "tool",
+      "note": "",
+      "addedBy": "3df3fdfb-65a5-4055-af90-b2cb4044b2f7",
+      "addedAt": "2026-10-12 2:40 PM ET"
+    },
+    {
+      "label": "FINDINGS.md (16 bugs, for the interviewer)",
+      "url": "https://github.com/patrickmwatson/interview-built-by-a-clanker/blob/main/FINDINGS.md",
+      "kind": "doc",
+      "note": "",
+      "addedBy": "3df3fdfb-65a5-4055-af90-b2cb4044b2f7",
+      "addedAt": "2026-10-12 2:42 PM ET"
+    },
+    {
+      "label": "Bug report: 16 fixes, simple + detail",
+      "url": "https://lifehackinnovations.com/lhi-workspace/deliverables/eci-round-two-live-bug-report/",
+      "kind": "deliverable",
+      "note": "",
+      "addedBy": "3df3fdfb-65a5-4055-af90-b2cb4044b2f7",
+      "addedAt": "2026-10-12 3:02 PM ET"
+    },
+    {
+      "label": "Hosted storefront app (login screen, portal-gated)",
+      "url": "https://lifehackinnovations.com/lhi-workspace/deliverables/eci-storefront-app/app/",
+      "kind": "deliverable",
+      "note": "",
+      "addedBy": "3df3fdfb-65a5-4055-af90-b2cb4044b2f7",
+      "addedAt": "2026-10-12 3:18 PM ET"
+    },
+    {
+      "label": "UI walkthrough: 16 bugs, Next/Back tutorial",
+      "url": "https://lifehackinnovations.com/lhi-workspace/deliverables/eci-round-two-live-walkthrough/",
+      "kind": "deliverable",
+      "note": "",
+      "addedBy": "47b19cf0-e402-49bd-9fed-aacee7adc04f",
+      "addedAt": "2026-10-12 3:30 PM ET"
+    }
+  ]
+}

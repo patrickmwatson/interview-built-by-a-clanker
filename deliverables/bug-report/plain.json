@@ -1,0 +1,5 @@
+{
+  "what": "All 16 seeded bugs in the ECI assessment were found and fixed, one fix each, and this page explains every one: what broke for a user, how we found it, the evidence, the thinking, and the diff.",
+  "takeaway": "The project builds and a browser walk-through of every main flow passes. No automated tests exist in the repo, so each bug's evidence is a build error, an API call or a browser run, and the page says which.",
+  "updatedAt": "2026-10-12T15:05 ET"
+}
