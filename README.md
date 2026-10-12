@@ -1,13 +1,13 @@
 # Agentic Personas Storefront — Debugging Assessment
 
 > ## Debugging report: an AI agent fleet fixed all 16 seeded bugs in one live interview
-> **[Open the master deliverable](https://lifehackinnovations.com/lhi-workspace/deliverables/eci-round-two-live/)** ·
-> [Bug report (simple and detail)](https://lifehackinnovations.com/lhi-workspace/deliverables/eci-round-two-live-bug-report/) ·
-> [UI walkthrough, 18 steps, Next/Back](https://lifehackinnovations.com/lhi-workspace/deliverables/eci-round-two-live-walkthrough/) ·
-> [Hosted app](https://lifehackinnovations.com/lhi-workspace/deliverables/eci-storefront-app/app/) ·
-> [Staffing tree](https://lifehackinnovations.com/lhi-workspace/deliverables/eci-round-two-live-tree/)
+> **[Open the master deliverable](https://lifehackinnovations.com/lhi-workspace/interview-deliverables/eci-round-two-live/)** ·
+> [Bug report (simple and detail)](https://lifehackinnovations.com/lhi-workspace/interview-deliverables/eci-round-two-live-bug-report/) ·
+> [UI walkthrough, 18 steps, Next/Back](https://lifehackinnovations.com/lhi-workspace/interview-deliverables/eci-round-two-live-walkthrough/) ·
+> [Hosted app](https://lifehackinnovations.com/lhi-workspace/interview-deliverables/eci-storefront-app/app/) ·
+> [Staffing tree](https://lifehackinnovations.com/lhi-workspace/interview-deliverables/eci-round-two-live-tree/)
 >
-> Static copies of every page are in [`deliverables/`](deliverables/) and open without any login. Hosted links are served by the author's workspace portal; if one asks you to sign in, use the snapshot. Session links inside the pages point at internal tooling and need authentication.
+> Static copies of every page are in [`interview-deliverables/`](interview-deliverables/) and open without any login. Hosted links are served by the author's workspace portal; if one asks you to sign in, use the snapshot. Session links inside the pages point at internal tooling and need authentication.
 
 ## At a glance
 
@@ -50,15 +50,80 @@ Commit trail: [all commits](https://github.com/patrickmwatson/interview-built-by
 ## What it looks like (after the fixes)
 
 <table><tr>
-<td align="center"><img src="deliverables/ui-walkthrough/shots/WEB-2.png" width="300"><br><sub><b>WEB-2</b> · Prices back to normal</sub></td>
-<td align="center"><img src="deliverables/ui-walkthrough/shots/WEB-3.png" width="300"><br><sub><b>WEB-3</b> · Filters refetch the list</sub></td>
-<td align="center"><img src="deliverables/ui-walkthrough/shots/WEB-4.png" width="300"><br><sub><b>WEB-4</b> · Favorite heart works the right way round</sub></td></tr><tr>
-<td align="center"><img src="deliverables/ui-walkthrough/shots/WEB-7.png" width="300"><br><sub><b>WEB-7</b> · Cart badge follows the cart</sub></td>
-<td align="center"><img src="deliverables/ui-walkthrough/shots/WEB-8.png" width="300"><br><sub><b>WEB-8</b> · Minus stops at 1</sub></td>
-<td align="center"><img src="deliverables/ui-walkthrough/shots/WEB-9.png" width="300"><br><sub><b>WEB-9</b> · Star ratings fill correctly</sub></td></tr><tr>
+<td align="center"><img src="interview-deliverables/ui-walkthrough/shots/WEB-2.png" width="300"><br><sub><b>WEB-2</b> · Prices back to normal</sub></td>
+<td align="center"><img src="interview-deliverables/ui-walkthrough/shots/WEB-3.png" width="300"><br><sub><b>WEB-3</b> · Filters refetch the list</sub></td>
+<td align="center"><img src="interview-deliverables/ui-walkthrough/shots/WEB-4.png" width="300"><br><sub><b>WEB-4</b> · Favorite heart works the right way round</sub></td></tr><tr>
+<td align="center"><img src="interview-deliverables/ui-walkthrough/shots/WEB-7.png" width="300"><br><sub><b>WEB-7</b> · Cart badge follows the cart</sub></td>
+<td align="center"><img src="interview-deliverables/ui-walkthrough/shots/WEB-8.png" width="300"><br><sub><b>WEB-8</b> · Minus stops at 1</sub></td>
+<td align="center"><img src="interview-deliverables/ui-walkthrough/shots/WEB-9.png" width="300"><br><sub><b>WEB-9</b> · Star ratings fill correctly</sub></td></tr><tr>
 </tr></table>
 
-Screenshots come from the [UI walkthrough](deliverables/ui-walkthrough/) with the affected element highlighted.
+Six of the 14 screenshots are shown here; all are below and in the [UI walkthrough](interview-deliverables/ui-walkthrough/).
+
+<details>
+<summary><b>Show all 14 screenshots</b></summary>
+
+## Every screenshot from the walkthrough
+
+The fixed app with the affected element highlighted. The two build-break bugs (API-0, WEB-1) have no screenshot; the walkthrough shows the real build error instead.
+
+**API-1 · Price filter keeps items at or above the minimum**
+
+![API-1](interview-deliverables/ui-walkthrough/shots/API-1.png)
+
+**API-2 · Login returns the username**
+
+![API-2](interview-deliverables/ui-walkthrough/shots/API-2.png)
+
+**API-3 · Browser can delete cart and favorite items (CORS)**
+
+![API-3](interview-deliverables/ui-walkthrough/shots/API-3.png)
+
+**API-4 · Cart items belong to their owner**
+
+![API-4](interview-deliverables/ui-walkthrough/shots/API-4.png)
+
+**API-5 · Checkout empties the cart**
+
+![API-5](interview-deliverables/ui-walkthrough/shots/API-5.png)
+
+**API-6 · Signed-out requests are rejected, not crashed**
+
+![API-6](interview-deliverables/ui-walkthrough/shots/API-6.png)
+
+**WEB-2 · Prices back to normal**
+
+![WEB-2](interview-deliverables/ui-walkthrough/shots/WEB-2.png)
+
+**WEB-3 · Filters refetch the list**
+
+![WEB-3](interview-deliverables/ui-walkthrough/shots/WEB-3.png)
+
+**WEB-4 · Favorite heart works the right way round**
+
+![WEB-4](interview-deliverables/ui-walkthrough/shots/WEB-4.png)
+
+**WEB-5 · Favorites do not clash with the persona page**
+
+![WEB-5](interview-deliverables/ui-walkthrough/shots/WEB-5.png)
+
+**WEB-6 · Logout really logs out**
+
+![WEB-6](interview-deliverables/ui-walkthrough/shots/WEB-6.png)
+
+**WEB-7 · Cart badge follows the cart**
+
+![WEB-7](interview-deliverables/ui-walkthrough/shots/WEB-7.png)
+
+**WEB-8 · Minus stops at 1**
+
+![WEB-8](interview-deliverables/ui-walkthrough/shots/WEB-8.png)
+
+**WEB-9 · Star ratings fill correctly**
+
+![WEB-9](interview-deliverables/ui-walkthrough/shots/WEB-9.png)
+
+</details>
 
 ## Where the bugs lived
 
@@ -106,11 +171,11 @@ flowchart TB
 
 | Deliverable | What it is | Static copy |
 |---|---|---|
-| Master | Progress bars, plan, decisions, live architecture diagram with narration | [`master-and-live-diagram/`](deliverables/master-and-live-diagram/) |
-| Bug report | One section per bug: simple view, then diff, evidence and thinking | [`bug-report/`](deliverables/bug-report/) |
-| UI walkthrough | 18-step Next/Back tutorial with spotlighted screenshots | [`ui-walkthrough/`](deliverables/ui-walkthrough/) |
-| Staffing tree | Which agent owned which work | [`staffing-tree/`](deliverables/staffing-tree/) |
-| Hosted app build | The fixed storefront as hosted | [`storefront-app-hosted-build/`](deliverables/storefront-app-hosted-build/) |
+| Master | Progress bars, plan, decisions, live architecture diagram with narration | [`master-and-live-diagram/`](interview-deliverables/master-and-live-diagram/) |
+| Bug report | One section per bug: simple view, then diff, evidence and thinking | [`bug-report/`](interview-deliverables/bug-report/) |
+| UI walkthrough | 18-step Next/Back tutorial with spotlighted screenshots | [`ui-walkthrough/`](interview-deliverables/ui-walkthrough/) |
+| Staffing tree | Which agent owned which work | [`staffing-tree/`](interview-deliverables/staffing-tree/) |
+| Hosted app build | The fixed storefront as hosted | [`storefront-app-hosted-build/`](interview-deliverables/storefront-app-hosted-build/) |
 | Model usage | Claude model counts for the last 30 days | inside the master snapshot, `model-usage/` |
 
 GitHub shows these pages as source. To view them rendered, clone the repo and open each `index.html` in a browser, or use the hosted links above.
